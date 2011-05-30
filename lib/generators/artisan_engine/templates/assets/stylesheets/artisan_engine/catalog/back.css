@@ -116,6 +116,6 @@ form#add_variant {
 }
 
 /* line 4, ../../../../../../../../catalog/spec/dummy/app/stylesheets/back.sass */
-.variant form.button_to {
+.variant form.button_to, #goods form.button_to {
   display: inline-block;
 }
