@@ -1,6 +1,8 @@
 # ---------- Set up gems from the parent gem's Gemfile. ---------- #
+# ------------- Explicitly require development gems. ------------- #
 
 require 'rubygems'
+require 'sqlite3'
 gemfile = File.expand_path( '../../../../Gemfile', __FILE__ )
 
 if File.exist?( gemfile )
@@ -8,6 +10,8 @@ if File.exist?( gemfile )
   require 'bundler'
   Bundler.setup
 end
+
+
 
 # ----- Add the parent gem's lib path to Ruby's load paths. ------ #
 
