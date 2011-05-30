@@ -1,0 +1,121 @@
+/* line 1, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good, form.new_good {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good, * html form.new_good {
+  overflow-x: hidden;
+}
+/* line 4, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good form, form.edit_good label, form.edit_good input, form.new_good form, form.new_good label, form.new_good input {
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #basics, form.new_good #basics {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 11, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #basics label[for="good_sku"], form.edit_good #basics label[for="good_name"], form.edit_good #basics label[for="good_price"], form.new_good #basics label[for="good_sku"], form.new_good #basics label[for="good_name"], form.new_good #basics label[for="good_price"] {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #basics label[for="good_sku"], * html form.edit_good #basics label[for="good_name"], * html form.edit_good #basics label[for="good_price"], * html form.new_good #basics label[for="good_sku"], * html form.new_good #basics label[for="good_name"], * html form.new_good #basics label[for="good_price"] {
+  overflow-x: hidden;
+}
+/* line 14, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #basics input#good_sku, form.edit_good #basics input#good_name, form.new_good #basics input#good_sku, form.new_good #basics input#good_name {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #basics input#good_sku, * html form.edit_good #basics input#good_name, * html form.new_good #basics input#good_sku, * html form.new_good #basics input#good_name {
+  overflow-x: hidden;
+}
+/* line 17, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #basics input#good_price, form.new_good #basics input#good_price {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 230px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #basics input#good_price, * html form.new_good #basics input#good_price {
+  overflow-x: hidden;
+}
+/* line 20, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #description, form.edit_good #option_types_for_good, form.edit_good #end_basics, form.new_good #description, form.new_good #option_types_for_good, form.new_good #end_basics {
+  padding: 10px 0;
+}
+/* line 23, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #description, form.new_good #description {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 630px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #description, * html form.new_good #description {
+  overflow-x: hidden;
+}
+/* line 26, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #description textarea, form.new_good #description textarea {
+  width: 100%;
+}
+/* line 29, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #option_types_for_good, form.new_good #option_types_for_good {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 310px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #option_types_for_good, * html form.new_good #option_types_for_good {
+  overflow-x: hidden;
+}
+/* line 32, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #end_basics, form.new_good #end_basics {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  text-align: right;
+  border: 1px dashed #dee9db;
+  margin-bottom: 10px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form.edit_good #end_basics, * html form.new_good #end_basics {
+  overflow-x: hidden;
+}
+/* line 39, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form.edit_good #end_basics input, form.new_good #end_basics input {
+  margin-right: 10px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+/* line 44, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/back/_forms.sass */
+form#add_variant {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form#add_variant {
+  overflow-x: hidden;
+}
+
+/* line 4, ../../../../../../../../catalog/spec/dummy/app/stylesheets/back.sass */
+.variant form.button_to {
+  display: inline-block;
+}

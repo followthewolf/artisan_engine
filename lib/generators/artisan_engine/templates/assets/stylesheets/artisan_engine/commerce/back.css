@@ -1,0 +1,184 @@
+/* line 1, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details {
+  overflow-x: hidden;
+}
+/* line 4, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #patron {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 390px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #patron {
+  overflow-x: hidden;
+}
+/* line 7, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 550px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status {
+  overflow-x: hidden;
+}
+/* line 10, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #payment {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 550px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #payment {
+  overflow-x: hidden;
+}
+/* line 13, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #payment #method {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #payment #method {
+  overflow-x: hidden;
+}
+/* line 16, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #payment #status {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 270px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #payment #status {
+  overflow-x: hidden;
+}
+/* line 19, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #fulfillment {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 550px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #fulfillment {
+  overflow-x: hidden;
+}
+/* line 22, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #fulfillment #status {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 270px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #fulfillment #status {
+  overflow-x: hidden;
+}
+/* line 25, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #order_status #fulfillment #action {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 270px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #order_status #fulfillment #action {
+  overflow-x: hidden;
+}
+/* line 28, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #addresses {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #addresses {
+  overflow-x: hidden;
+}
+/* line 32, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #addresses #shipping {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #addresses #shipping {
+  overflow-x: hidden;
+}
+/* line 35, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #addresses #billing {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #addresses #billing {
+  overflow-x: hidden;
+}
+/* line 38, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_orders.sass */
+#order_details #line_items {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  margin-top: 20px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #order_details #line_items {
+  overflow-x: hidden;
+}
+
+/* line 1, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_fulfillments.sass */
+form#new_fulfillment {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form#new_fulfillment {
+  overflow-x: hidden;
+}
+/* line 4, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_fulfillments.sass */
+form#new_fulfillment #items {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form#new_fulfillment #items {
+  overflow-x: hidden;
+}
+/* line 7, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_fulfillments.sass */
+form#new_fulfillment #details {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html form#new_fulfillment #details {
+  overflow-x: hidden;
+}
+/* line 10, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/back/_fulfillments.sass */
+form#new_fulfillment #details input[type=button] {
+  text-align: right;
+}

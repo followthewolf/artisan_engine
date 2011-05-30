@@ -1,0 +1,39 @@
+gzip_assets:  off
+embed_assets: on
+
+javascripts:
+  artisan_engine_all:
+    - public/javascripts/jquery.min.js
+    - public/javascripts/jquery-ui.min.js
+    - public/javascripts/rails.js
+    - public/javascripts/artisan_engine/**/*.js
+
+stylesheets:
+  artisan_engine_ie:
+    - public/stylesheets/artisan_engine/core/ie.css
+  
+  artisan_engine_print:
+    - public/stylesheets/artisan_engine/core/print.css
+  
+  artisan_engine_front:
+    - public/stylesheets/artisan_engine/core/front.css
+    - public/stylesheets/artisan_engine/catalog/front.css
+    - public/stylesheets/artisan_engine/commerce/front.css
+    
+  artisan_engine_back:
+    - public/stylesheets/artisan_engine/back.css
+    
+    - public/stylesheets/artisan_engine/core/back.css
+    - public/stylesheets/artisan_engine/core/embed/**/*.css
+    
+    - public/stylesheets/artisan_engine/attachments/back.css
+    - public/stylesheets/artisan_engine/attachments/embed/**/*.css
+    
+    - public/stylesheets/artisan_engine/auth/back.css
+    
+    - public/stylesheets/artisan_engine/catalog/back.css
+    - public/stylesheets/artisan_engine/catalog/embed/**/*.css
+    
+    - public/stylesheets/artisan_engine/commerce/back.css
+
+    - public/stylesheets/artisan_engine/listability/back.css

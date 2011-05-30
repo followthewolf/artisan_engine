@@ -1,0 +1,9 @@
+/* line 1, ../../../../../../../spec/dummy/app/stylesheets/back.sass */
+#artisan_bar {
+  text-align: center;
+  margin: 10px 0;
+}
+/* line 5, ../../../../../../../spec/dummy/app/stylesheets/back.sass */
+#artisan_bar a {
+  margin: 0 10px;
+}

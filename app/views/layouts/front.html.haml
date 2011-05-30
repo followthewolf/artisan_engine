@@ -1,0 +1,11 @@
+!!!
+
+%html
+	= render 'layouts/head'
+	
+	%body
+		#wrapper
+			#primary_guide
+				= render 'guides/guide', :guide => Guide.first if Guide.any?
+			
+			= yield

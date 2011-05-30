@@ -1,0 +1,12 @@
+%head
+	%title ArtisanEngine Core Back-End
+
+	= stylesheet_link_tag 'artisan_engine/artisan_engine_back',  :media => 'screen, projection'
+	= stylesheet_link_tag 'artisan_engine/artisan_engine_print', :media => 'print'
+	= yield :stylesheets
+
+	/[if lt IE 8]
+		= stylesheet_link_tag 'artisan_engine/artisan_engine_ie', :media => 'screen, projection'
+
+	= javascript_include_tag 'artisan_engine/artisan_engine_all'
+	= yield :javascripts

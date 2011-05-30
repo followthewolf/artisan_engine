@@ -1,0 +1,11 @@
+%head
+	%title My ArtisanEngine
+	
+	= stylesheet_link_tag 'artisan_engine/artisan_engine_front', :media => 'screen, projection'
+	= stylesheet_link_tag 'artisan_engine/artisan_engine_print', :media => 'print'
+	
+	/[if lt IE 8]
+		= stylesheet_link_tag 'artisan_engine/artisan_engine_ie', :media => 'screen, projection'
+
+	= javascript_include_tag 'artisan_engine/artisan_engine_all'
+	= yield :javascripts

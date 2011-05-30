@@ -1,0 +1,50 @@
+/* line 1, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/front/_new_order.sass */
+#proceed_to_checkout {
+  text-align: right;
+}
+
+/* line 1, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/front/_checkout.sass */
+#patron_info {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #patron_info {
+  overflow-x: hidden;
+}
+
+/* line 4, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/front/_checkout.sass */
+#addresses {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #addresses {
+  overflow-x: hidden;
+}
+/* line 7, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/front/_checkout.sass */
+#addresses #shipping_address {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #addresses #shipping_address {
+  overflow-x: hidden;
+}
+/* line 10, ../../../../../../../../commerce/spec/dummy/app/stylesheets/partials/front/_checkout.sass */
+#addresses #billing_address, #addresses #billing_address_placeholder {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #addresses #billing_address, * html #addresses #billing_address_placeholder {
+  overflow-x: hidden;
+}

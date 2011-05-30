@@ -1,0 +1,85 @@
+/* line 4, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol {
+  overflow-x: hidden;
+}
+/* line 11, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol li {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  padding-right: 480px;
+  margin-bottom: 10px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol li {
+  overflow-x: hidden;
+}
+/* line 16, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol li form {
+  display: inline-block;
+}
+/* line 19, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol li .handle {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+  cursor: move;
+  width: 30px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol li .handle {
+  overflow-x: hidden;
+}
+/* line 24, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol li .name {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 230px;
+  width: 200px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol li .name {
+  overflow-x: hidden;
+}
+/* line 28, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol li .links {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+  width: 200px;
+  text-align: right;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol li .links {
+  overflow-x: hidden;
+}
+/* line 33, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol ol {
+  padding-left: 40px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 910px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body ol ol {
+  overflow-x: hidden;
+}
+/* line 37, ../../../../../../../../listability/spec/dummy/app/stylesheets/back.sass */
+body ol ol li {
+  margin-bottom: 5px;
+}

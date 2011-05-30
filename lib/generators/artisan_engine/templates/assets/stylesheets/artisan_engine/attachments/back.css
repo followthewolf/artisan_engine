@@ -1,0 +1,66 @@
+/* line 3, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#images {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 950px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images {
+  overflow-x: hidden;
+}
+/* line 6, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#images .image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images .image {
+  overflow-x: hidden;
+}
+/* line 9, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#images .image .handle {
+  text-align: center;
+  cursor: move;
+  display: inline;
+  float: right;
+}
+/* line 15, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#images .image form {
+  display: inline;
+  float: left;
+}
+
+/* line 19, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#crop_image {
+  overflow: hidden;
+  *zoom: 1;
+  width: 960px;
+}
+/* line 23, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#crop_image .crop_preview {
+  width: 200px;
+  margin: 0 20px 0 20px;
+  float: left;
+}
+/* line 28, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#crop_image .new_cropping {
+  width: 720px;
+  float: left;
+}
+
+/* line 32, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#end_cropping {
+  text-align: right;
+  border: 1px dashed #dee9db;
+  margin: 10px;
+  padding: 10px;
+}
+/* line 38, ../../../../../../../../attachments/spec/dummy/app/stylesheets/back.sass */
+#end_cropping input {
+  margin-right: 10px;
+  padding: 2px;
+  font-size: 14px;
+}

@@ -1,0 +1,99 @@
+/* line 3, ../../../../../../../../auth/spec/dummy/app/stylesheets/back.sass */
+#new_artisan {
+  padding-left: 240px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  padding-right: 240px;
+  text-align: center;
+}
+/* line 18, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan label {
+  font-weight: bold;
+}
+/* line 19, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan fieldset {
+  padding: 1.4em;
+  margin: 0 0 1.5em 0;
+}
+/* line 20, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 26, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan input.text, #new_artisan input.title, #new_artisan input[type=email], #new_artisan input[type=text], #new_artisan input[type=password] {
+  margin: 0.5em 0;
+  background-color: white;
+  padding: 5px;
+}
+/* line 27, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan input.title {
+  font-size: 1.5em;
+}
+/* line 29, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan textarea {
+  margin: 0.5em 0;
+  padding: 5px;
+}
+/* line 30, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan select {
+  margin: 0.5em 0;
+}
+/* line 55, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan fieldset {
+  border: 1px solid #cccccc;
+}
+/* line 58, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan input.text, #new_artisan input.title, #new_artisan input[type=email], #new_artisan input[type=text], #new_artisan input[type=password],
+#new_artisan textarea {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+}
+/* line 61, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan input.text:focus, #new_artisan input.title:focus, #new_artisan input[type=email]:focus, #new_artisan input[type=text]:focus, #new_artisan input[type=password]:focus,
+#new_artisan textarea:focus {
+  border: 1px solid #666666;
+}
+/* line 65, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan select {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 44, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan input.text, #new_artisan input.title, #new_artisan input[type=email], #new_artisan input[type=text], #new_artisan input[type=password] {
+  width: 300px;
+}
+/* line 46, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+#new_artisan textarea {
+  width: 390px;
+  height: 250px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #new_artisan {
+  overflow-x: hidden;
+}
+/* line 12, ../../../../../../../../auth/spec/dummy/app/stylesheets/back.sass */
+#new_artisan label {
+  font-weight: normal;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  padding: 0 5px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #new_artisan label {
+  overflow-x: hidden;
+}
+/* line 17, ../../../../../../../../auth/spec/dummy/app/stylesheets/back.sass */
+#new_artisan input[type=text], #new_artisan input[type=password] {
+  width: 470px;
+}
+/* line 20, ../../../../../../../../auth/spec/dummy/app/stylesheets/back.sass */
+#new_artisan input[type=submit] {
+  width: 200px;
+  margin: 10px 0 0 10px;
+}

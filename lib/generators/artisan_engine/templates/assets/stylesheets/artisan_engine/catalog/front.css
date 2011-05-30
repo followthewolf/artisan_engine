@@ -1,0 +1,56 @@
+/* line 1, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/front/_good_show.sass */
+#information {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #information {
+  overflow-x: hidden;
+}
+
+/* line 4, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/front/_good_show.sass */
+#images {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images {
+  overflow-x: hidden;
+}
+/* line 7, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/front/_good_show.sass */
+#images #main_image, #images #additional_images {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images #main_image, * html #images #additional_images {
+  overflow-x: hidden;
+}
+/* line 11, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/front/_good_show.sass */
+#images #additional_images .image {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images #additional_images .image {
+  overflow-x: hidden;
+}
+/* line 14, ../../../../../../../../catalog/spec/dummy/app/stylesheets/partials/front/_good_show.sass */
+#images #additional_images .image:last-child {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 150px;
+}
+/* line 147, ../../../../../../../../../../.rvm/gems/ruby-1.9.2-p180@artisan-050711-gems/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #images #additional_images .image:last-child {
+  overflow-x: hidden;
+}
