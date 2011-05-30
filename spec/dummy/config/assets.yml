@@ -16,12 +16,7 @@ stylesheets:
     - public/stylesheets/artisan_engine/core/print.css
   
   artisan_engine_front:
-    - public/stylesheets/artisan_engine/core/front.css
     - public/stylesheets/artisan_engine/core/embed/**/*.css
-    
-    - public/stylesheets/artisan_engine/catalog/front.css
-    
-    - public/stylesheets/artisan_engine/commerce/front.css
     
   artisan_engine_back:
     - public/stylesheets/artisan_engine/back.css
