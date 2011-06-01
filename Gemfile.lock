@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:followthewolf/artisan_engine_auth.git
-  revision: 47f68b2f57fd2d083af287dfa5a1ed0e901746f9
+  revision: ec15c62730582df0ded9c89863ce3a484689fa51
   specs:
     artisan_engine_auth (0.0.1)
       artisan_engine_core
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_collectability.git
-  revision: d6967140759649ed0c472a981ba2724490f7d65e
+  revision: 41c26298cbd7af45a21856a00f6cd93a0c4da491
   specs:
     artisan_engine_collectability (0.0.1)
       artisan_engine_core
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_commerce.git
-  revision: 404b697b353350403bb8ec5f1a23fcdd3ca97640
+  revision: 45fe7c97429de585ee092e0f1c4ca9cc09e32698
   specs:
     artisan_engine_commerce (0.0.1)
       artisan_engine_catalog
@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_core.git
-  revision: 3161d05d0e6bd4930146b0c662e945784702a424
+  revision: ab1917fab32e17ec7f5cb6fca94ee9c418de2c7f
   specs:
     artisan_engine_core (0.0.1)
       barista (= 1.0.0)
@@ -39,7 +39,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_guidability.git
-  revision: 738a16ab051341dbb7fe75e5929abcb1bab27630
+  revision: 4dfc628d41433b286d64dd763c4f10aa41564501
   specs:
     artisan_engine_guidability (0.0.1)
       artisan_engine_core
@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_pages.git
-  revision: 9c9a8b9ca82530ebeb5f16bf783684dfec14f2ed
+  revision: f892f76664f9d02bb43566ece3d831352c757641
   specs:
     artisan_engine_pages (0.0.1)
       artisan_engine_core
@@ -232,7 +232,7 @@ GEM
     ruby-hmac (0.4.0)
     rubyzip (0.9.4)
     sass (3.1.2)
-    selenium-webdriver (0.2.0)
+    selenium-webdriver (0.2.1)
       childprocess (>= 0.1.7)
       ffi (>= 1.0.7)
       json_pure
