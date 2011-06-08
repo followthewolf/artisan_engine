@@ -6,11 +6,14 @@ require 'artisan_engine'
 
 module ArtisanEngine
 
+  autoload :CollectPatch, 'artisan_engine/collect_patch'
+
   # ------------------------- Vroom vroom! ------------------------- #
   
   class Engine < Rails::Engine
     config.to_prepare do      
       ActionView::Helpers::AssetTagHelper.register_stylesheet_expansion :artisan_engine => [ "artisan_engine/back" ]
+      CustomCollection.class_eval { include ArtisanEngine::CollectPatch }
     end
     
     initializer 'configure Collectability' do
