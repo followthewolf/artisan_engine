@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_collectability.git
-  revision: 41c26298cbd7af45a21856a00f6cd93a0c4da491
+  revision: 4b3ce8e48f729e49562937761543344317ea6bfa
   specs:
     artisan_engine_collectability (0.0.1)
       artisan_engine_core
