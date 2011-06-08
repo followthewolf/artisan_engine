@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:followthewolf/artisan_engine_auth.git
-  revision: ec15c62730582df0ded9c89863ce3a484689fa51
+  revision: afc9803d2d1f9360003f714e2a38a215ddca1051
   specs:
     artisan_engine_auth (0.0.1)
       artisan_engine_core
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_collectability.git
-  revision: 4b3ce8e48f729e49562937761543344317ea6bfa
+  revision: 46d3522a6c58f6a4e253e16ed51fb0101bbae8c9
   specs:
     artisan_engine_collectability (0.0.1)
       artisan_engine_core
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_commerce.git
-  revision: a66024a603b9a52a96930dd9f87431e0ab2b0ff4
+  revision: 27421fca52c0b4191cad9dc5994567c9c5568fc3
   specs:
     artisan_engine_commerce (0.0.1)
       artisan_engine_catalog
@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_core.git
-  revision: ab1917fab32e17ec7f5cb6fca94ee9c418de2c7f
+  revision: d02d2219633c2c20efaf0e6a518cc1669cf2df26
   specs:
     artisan_engine_core (0.0.1)
       barista (= 1.0.0)
@@ -39,7 +39,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_guidability.git
-  revision: 4dfc628d41433b286d64dd763c4f10aa41564501
+  revision: 5fe596ceeb73f6e03cb7cf5bf4e98decb2c6c0d5
   specs:
     artisan_engine_guidability (0.0.1)
       artisan_engine_core
@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_pages.git
-  revision: f892f76664f9d02bb43566ece3d831352c757641
+  revision: 3dceaa05e7a16e621842c038ed21b2da301aa300
   specs:
     artisan_engine_pages (0.0.1)
       artisan_engine_core
@@ -237,6 +237,7 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
+    sqlite3 (1.3.3)
     state_machine (1.0.0)
     steak (1.1.0)
       rspec (>= 1.3)
@@ -267,4 +268,5 @@ DEPENDENCIES
   launchy (= 0.4.0)
   rake (~> 0.8.7)
   rspec-rails (= 2.5.0)
+  sqlite3 (= 1.3.3)
   steak (= 1.1.0)
