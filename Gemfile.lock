@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:followthewolf/artisan_engine_auth.git
-  revision: afc9803d2d1f9360003f714e2a38a215ddca1051
+  revision: 5302405970e57721e79edf16b923431586f77b11
   specs:
     artisan_engine_auth (0.0.1)
       artisan_engine_core
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_collectability.git
-  revision: 46d3522a6c58f6a4e253e16ed51fb0101bbae8c9
+  revision: fd35c9233909fa5410cbb5a77a4c2650e0d62c13
   specs:
     artisan_engine_collectability (0.0.1)
       artisan_engine_core
@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_commerce.git
-  revision: 27421fca52c0b4191cad9dc5994567c9c5568fc3
+  revision: 82a67eaa42de782ab0acf906c7a0e87df60cd54e
   specs:
     artisan_engine_commerce (0.0.1)
       artisan_engine_catalog
@@ -25,7 +25,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_core.git
-  revision: d02d2219633c2c20efaf0e6a518cc1669cf2df26
+  revision: 2ddf4c7bc7903c819b706867c16c0e3dcc6ac139
   specs:
     artisan_engine_core (0.0.1)
       barista (= 1.0.0)
@@ -39,7 +39,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_guidability.git
-  revision: 5fe596ceeb73f6e03cb7cf5bf4e98decb2c6c0d5
+  revision: 60047c49458a42f5c757692149681f937c72afda
   specs:
     artisan_engine_guidability (0.0.1)
       artisan_engine_core
@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_pages.git
-  revision: 3dceaa05e7a16e621842c038ed21b2da301aa300
+  revision: 3b74c2b23ee5841e919c5cf1ca9959ae64002748
   specs:
     artisan_engine_pages (0.0.1)
       artisan_engine_core
@@ -109,7 +109,7 @@ GEM
       activesupport (= 3.0.7)
     activesupport (3.0.7)
     arel (2.0.10)
-    babosa (0.3.4)
+    babosa (0.3.5)
     barista (1.0.0)
       coffee-script (~> 2.1.1)
     bcrypt-ruby (2.1.4)
