@@ -23,8 +23,8 @@ module ArtisanEngine
     config.to_prepare do      
       ActionView::Helpers::AssetTagHelper.register_stylesheet_expansion :artisan_engine => [ "artisan_engine/back" ]
       
-      CustomCollection.class_eval { include ArtisanEngine::GuidabilityPatch }
-      Good.class_eval { include ArtisanEngine::CollectabilityPatch }
+      CustomCollection.send :include, ArtisanEngine::GuidabilityPatch
+      Good.send :include, ArtisanEngine::CollectabilityPatch
     end
   end
 
