@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110530232918) do
+ActiveRecord::Schema.define(:version => 20110611071547) do
 
   create_table "addresses", :force => true do |t|
     t.integer  "patron_id"
@@ -74,12 +74,13 @@ ActiveRecord::Schema.define(:version => 20110530232918) do
   add_index "custom_collections", ["cached_slug"], :name => "index_custom_collections_on_cached_slug", :unique => true
 
   create_table "fulfillments", :force => true do |t|
-    t.integer  "order_id",                     :null => false
-    t.integer  "cost_in_cents", :default => 0, :null => false
-    t.string   "currency",                     :null => false
+    t.integer  "order_id",                       :null => false
+    t.integer  "cost_in_cents",   :default => 0, :null => false
+    t.string   "currency",                       :null => false
     t.string   "tracking"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "shipping_method"
   end
 
   create_table "goods", :force => true do |t|
@@ -179,11 +180,12 @@ ActiveRecord::Schema.define(:version => 20110530232918) do
   end
 
   create_table "patrons", :force => true do |t|
-    t.string   "first_name", :null => false
-    t.string   "last_name",  :null => false
-    t.string   "email",      :null => false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email",                         :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "subscribed", :default => false
   end
 
   create_table "slugs", :force => true do |t|

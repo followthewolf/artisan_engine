@@ -361,3 +361,8 @@ input[value="Delete"], input[value="Cancel"], input[value="No"] {
 .confirmation .inner {
   padding: 20px;
 }
+
+/* line 10, ../../../../../../../../core/spec/dummy/app/stylesheets/partials/back/_confirmation.sass */
+#colorbox #cboxContent #cboxLoadedContent {
+  background-color: white;
+}
