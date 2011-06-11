@@ -16,7 +16,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_commerce.git
-  revision: 151df8e4d3e02302111ccbef1f64b67b1a514e1c
+  revision: 2ce6be87b28d2deb1498e266df6f1d78744204fb
   specs:
     artisan_engine_commerce (0.0.1)
       artisan_engine_catalog
