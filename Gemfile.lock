@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git@github.com:followthewolf/artisan_engine_pages.git
-  revision: 3b74c2b23ee5841e919c5cf1ca9959ae64002748
+  revision: a84cbdacdce4e53e5af30039fecfda1de9af519c
   specs:
     artisan_engine_pages (0.0.1)
       artisan_engine_core
