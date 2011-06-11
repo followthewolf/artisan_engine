@@ -1,3 +1,57 @@
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_auth.git
+  revision: 5302405970e57721e79edf16b923431586f77b11
+  specs:
+    artisan_engine_auth (0.0.1)
+      artisan_engine_core
+      devise (= 1.3.4)
+
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_collectability.git
+  revision: fd35c9233909fa5410cbb5a77a4c2650e0d62c13
+  specs:
+    artisan_engine_collectability (0.0.1)
+      artisan_engine_core
+      artisan_engine_listability
+
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_commerce.git
+  revision: 2ce6be87b28d2deb1498e266df6f1d78744204fb
+  specs:
+    artisan_engine_commerce (0.0.1)
+      artisan_engine_catalog
+      carmen (= 0.2.7)
+      state_machine (= 1.0.0)
+
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_core.git
+  revision: 2ddf4c7bc7903c819b706867c16c0e3dcc6ac139
+  specs:
+    artisan_engine_core (0.0.1)
+      barista (= 1.0.0)
+      compass (= 0.11.1)
+      friendly_id (= 3.2.1.1)
+      haml (= 3.1.1)
+      inherited_resources (= 1.2.2)
+      jquery-rails (= 1.0)
+      rails (= 3.0.7)
+      rdiscount (= 1.6.8)
+
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_guidability.git
+  revision: 60047c49458a42f5c757692149681f937c72afda
+  specs:
+    artisan_engine_guidability (0.0.1)
+      artisan_engine_core
+      artisan_engine_listability
+
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_pages.git
+  revision: a84cbdacdce4e53e5af30039fecfda1de9af519c
+  specs:
+    artisan_engine_pages (0.0.1)
+      artisan_engine_core
+
 PATH
   remote: .
   specs:
@@ -22,54 +76,6 @@ PATH
       artisan_engine_listability
       money (= 3.6.1)
     artisan_engine_listability (0.0.1)
-      artisan_engine_core
-
-PATH
-  remote: auth
-  specs:
-    artisan_engine_auth (0.0.1)
-      artisan_engine_core
-      devise (= 1.3.4)
-
-PATH
-  remote: collectability
-  specs:
-    artisan_engine_collectability (0.0.1)
-      artisan_engine_core
-      artisan_engine_listability
-
-PATH
-  remote: commerce
-  specs:
-    artisan_engine_commerce (0.0.1)
-      artisan_engine_catalog
-      carmen (= 0.2.7)
-      state_machine (= 1.0.0)
-
-PATH
-  remote: core
-  specs:
-    artisan_engine_core (0.0.1)
-      barista (= 1.0.0)
-      compass (= 0.11.1)
-      friendly_id (= 3.2.1.1)
-      haml (= 3.1.1)
-      inherited_resources (= 1.2.2)
-      jquery-rails (= 1.0)
-      rails (= 3.0.7)
-      rdiscount (= 1.6.8)
-
-PATH
-  remote: guidability
-  specs:
-    artisan_engine_guidability (0.0.1)
-      artisan_engine_core
-      artisan_engine_listability
-
-PATH
-  remote: pages
-  specs:
-    artisan_engine_pages (0.0.1)
       artisan_engine_core
 
 GEM
